@@ -1,16 +1,17 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="28.0.4">
   <diagram name="Page-1" id="B3YUEx_qBwSS2GtIpIUW">
-    <mxGraphModel dx="1665" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Vhb1uaG8wag5uBAkECUa-2" value="Group order service" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="80" y="120" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UlIFoqT-Ia3_HT0VtBUo-1" value="Cart" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="45" y="170" width="200" height="200" as="geometry">
-            <mxRectangle x="45" y="170" width="60" height="30" as="alternateBounds" />
-          </mxGeometry>
+        <mxCell id="UlIFoqT-Ia3_HT0VtBUo-6" value="cart" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="220" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="UlIFoqT-Ia3_HT0VtBUo-7" value="&lt;div&gt;const groupOrder = {&lt;/div&gt;&lt;div&gt;&amp;nbsp; userId:{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; billing: &quot;host/split&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; menus:[..., setId: &quot;&quot;],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; products:[..., setId: &quot;&quot;]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; isSelfPayment: true,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; isHost: true,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; deliveryCharge: &quot;&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; discount: &quot;&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; subTotalAmount: &quot;&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; payableAmount: &quot;&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; totalPayableAmount: &quot;&quot;, // Host&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // .............&lt;/div&gt;&lt;div&gt;&amp;nbsp; },&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;const menus:[&lt;/div&gt;&lt;div&gt;&amp;nbsp; ...userId.menus,&lt;/div&gt;&lt;div&gt;&amp;nbsp; ...userId.menus,&lt;/div&gt;&lt;div&gt;&amp;nbsp; ...userId.menus,&lt;/div&gt;&lt;div&gt;]&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="UlIFoqT-Ia3_HT0VtBUo-6">
+          <mxGeometry y="30" width="220" height="350" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
